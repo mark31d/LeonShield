@@ -9,7 +9,7 @@ workflows:
         distribution_type: app_store
         bundle_identifier: com.LeonShield
       vars:
-        APP_STORE_APPLE_ID: 6741929642
+        APP_STORE_APPLE_ID: 6744040336
         BUNDLE_ID: 'com.LeonShield'
         XCODE_WORKSPACE: 'LeonShield.xcworkspace'
         CODE_SCHEME: 'LeonShield'
