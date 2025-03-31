@@ -358,11 +358,12 @@ export default function FocusTimerScreen({ navigation }) {
 
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#000' },
+  container: { flex: 1, backgroundColor: '#000' , paddingTop:60,},
   header: {
     flexDirection: 'row',
     alignItems: 'center',
     marginTop: 48,
+    marginBottom:30,
     marginHorizontal: 40,
     justifyContent: 'space-between',
   },
@@ -476,7 +477,7 @@ const styles = StyleSheet.create({
   },
   normalSessionText: { fontSize: 16, color: '#fff', fontWeight: '600' },
   bottomBar: {
-    marginTop: 10,
+    marginTop: 60,
     marginBottom: -24,
     position: 'relative',
     width: '100%',
@@ -506,8 +507,8 @@ const styles = StyleSheet.create({
   bottomIconCenter: { width: 40, height: 40, tintColor: '#F5E9A9' },
   bubbleContainer: {
     position: 'absolute',
-    top: 320,
-    left: 160,
+    top: 400,
+    left: 200,
     maxWidth: 200,
     backgroundColor: '#fff',
     borderRadius: 16,

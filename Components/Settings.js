@@ -443,7 +443,7 @@ const styles = StyleSheet.create({
   // ===== Три кнопки внизу =====
   bottomBar: {
     position: 'absolute',
-    bottom: 24,
+    bottom: 70,
     width: '100%',
     flexDirection: 'row',
     justifyContent: 'space-evenly',
